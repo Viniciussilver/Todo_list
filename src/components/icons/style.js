@@ -7,12 +7,13 @@ export const Check = styled(VscCheckAll)`
   cursor: pointer;
   width: 25px;
   height: 25px;
+  color: blue;
 
   &:active {
     opacity: 0.5;
   }
   &:hover {
-    color: blue;
+    color: #ececec;
   }
 `
 
@@ -25,23 +26,25 @@ export const Edit = styled(VscEdit)`
   cursor: pointer;
   width: 25px;
   height: 25px;
+  color: blue;
 
   &:active {
     opacity: 0.5;
   }
   &:hover {
-    color: blue;
+    color: #ececec;
   }
 `
 export const Trash = styled(VscTrash)`
   cursor: pointer;
   width: 25px;
   height: 25px;
+  color: blue;
 
   &:active {
     opacity: 0.5;
   }
   &:hover {
-    color: blue;
+    color: #ececec;
   }
 `

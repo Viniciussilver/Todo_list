@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const StyledContainer = styled.div`
   width: 50%;
   padding: 10px 14px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color:rgba(0,0,0,0.9);
   position: absolute;
   left: 25%;
   top: ${(props) => (props.open ? "-2%" : "-120%")};

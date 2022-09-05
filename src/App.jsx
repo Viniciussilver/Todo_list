@@ -27,7 +27,7 @@ function App() {
     const newUser = { id: v4(), task: input, finished: false }
 
     setTasks([...tasks, newUser])
-    addLocalStorage()
+    addLocalStorage([...tasks, newUser])
     setInput("")
   }
 
@@ -37,14 +37,14 @@ function App() {
     )
 
     setTasks(newList)
-    addLocalStorage()
+    addLocalStorage(newList)
   }
 
   const deleteTask = (id) => {
     const newList = tasks.filter((item) => item.id !== id)
 
     setTasks(newList)
-    addLocalStorage()
+    addLocalStorage(newList)
   }
 
   const openModal = (id) => {
@@ -62,7 +62,7 @@ function App() {
     )
 
     setTasks(newList)
-    addLocalStorage()
+    addLocalStorage(newList)
     setOpen(false)
     setValueTextArea("")
   }
@@ -71,8 +71,8 @@ function App() {
 
   const valueText = (e) => setValueTextArea(e)
 
-  function addLocalStorage() {
-    localStorage.setItem("arrayTasks", JSON.stringify(tasks))
+  function addLocalStorage(data) {
+    localStorage.setItem("arrayTasks", JSON.stringify(data))
     console.log(localStorage.arrayTasks)
   }
 
@@ -89,9 +89,9 @@ function App() {
   return (
     <C.Container>
       <C.Typography
-        border="2px solid #000"
+        border="1px solid #353a3c"
         fontWeight="400"
-        size="32px"
+        size="34px"
         lineHeight="48px"
         align="center"
       >

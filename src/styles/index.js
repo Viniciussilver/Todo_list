@@ -15,7 +15,7 @@ export const GlobalStyles = createGlobalStyle`
         display:flex;
         align-items:center;
         justify-content:center;
-        background: linear-gradient(90deg, #383838 0%, #000000 81.25%);
+        background: #1a1c1d;
        
     }
 `
@@ -24,7 +24,7 @@ export const Container = styled.div`
   width: 560px;
   margin: 20px 0;
   padding: 30px 20px;
-  background: #fff;
+  background-color: #1a1c1d;
   display: flex;
   flex-direction: column;
   border-radius: 7px;
@@ -37,7 +37,7 @@ export const boxSaveTasks = styled.div`
   width: 100%;
   padding: 25px 10px;
 
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #353a3c;
   display: flex;
   flex-direction: column;
 `
@@ -46,21 +46,21 @@ export const Typography = styled.p`
   font-weight: ${(props) => props.fontWeight || "500"};
   font-size: ${(props) => props.size || "18px"};
   line-height: ${(props) => props.lineHeight || "27px"};
-  color: ${(props) => props.primary || "#1A1A1A"};
+  color: ${(props) => props.primary || "#ececec"};
   text-align: ${(props) => props.align || "none"};
   border-bottom: ${(props) => props.border || "none"};
 `
 
 export const TextTask = styled.p`
   display: flex;
-  width: 320px;
+  width: 340px;
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-word;
   padding-left: 20px;
   font-weight: 500;
   font-size: 17.5px;
-  color: #1a1a1a;
+  color: #ececec;
 `
 
 export const Flex = styled.div`
@@ -71,7 +71,7 @@ export const Flex = styled.div`
 
 export const SearchBox = styled.div`
   padding: 0 30px 0 10px;
-  border-right: 1px solid #eee;
+  border-right: 1px solid #353a3c;
 `
 
 export const FilterTasks = styled.div`
@@ -85,7 +85,7 @@ export const listTask = styled.div`
   width: 100%;
   text-decoration-line: ${(props) =>
     props.isFinished ? "line-through" : "none"};
-  background: ${(props) => (props.isFinished ? "	#7CFC00" : "#E4E4E4")};
+  background: ${(props) => (props.isFinished ? "	#7CFC00" : "#232627")};
   box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin-top: 30px;

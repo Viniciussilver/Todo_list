@@ -20,8 +20,8 @@ export const TextArea = styled.textarea`
   border-radius: 7px;
   margin-top: 15px;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 14px;
+  font-size: 16px;
+  line-height: 16px;
   color: #1a1a1a;
 `
 export const Button = styled.button`
@@ -29,6 +29,7 @@ export const Button = styled.button`
   padding: 8px;
   border: none;
   border-radius: 8px;
+  font-size:15px;
   margin-top: 15px;
   color: #ececec;
   background-color: blue;
