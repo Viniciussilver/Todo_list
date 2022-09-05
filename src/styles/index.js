@@ -28,7 +28,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 7px;
-  position:relative;
+  position:absolute;
+  top:15%;
+  right:30%;
 
   @media screen and (max-width:564px) {
     width: 400px;
