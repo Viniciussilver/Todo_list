@@ -67,7 +67,10 @@ function App() {
     setValueTextArea("")
   }
 
-  const closeModal = () => setOpen(!open)
+  const closeModal = () => {
+    setOpen(!open)
+    setAlertMessage(false)
+  }
 
   const valueText = (e) => setValueTextArea(e)
 
