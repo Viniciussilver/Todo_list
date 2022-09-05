@@ -28,9 +28,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 7px;
-  position: absolute;
-  top: 20px;
-  right: 30%;
+
+  @media screen and (max-width:564px) {
+    width: 400px;
+  }
+ 
 `
 
 export const boxSaveTasks = styled.div`
@@ -61,6 +63,11 @@ export const TextTask = styled.p`
   font-weight: 500;
   font-size: 17.5px;
   color: #ececec;
+
+  @media screen and (max-width:564px) {
+    width: 215px;
+    padding-left: 5px;
+  }
 `
 
 export const Flex = styled.div`
