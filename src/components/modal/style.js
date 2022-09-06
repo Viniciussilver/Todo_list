@@ -6,7 +6,7 @@ export const StyledContainer = styled.div`
   background-color:rgba(0,0,0,0.9);
   position: absolute;
   left: 25%;
-  top: ${(props) => (props.open ? "1%" : "-120%")};
+  top: ${(props) => (props.open ? "0%" : "-120%")};
   transition: 0.4s ease;
   display: flex;
   gap: 15px;
