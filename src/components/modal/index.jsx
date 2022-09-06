@@ -7,7 +7,7 @@ export const ErrorAlert = ({ onClick, open }) => {
       <Typography size="22px" primary="#ececec">
         Usuário
       </Typography>
-      <Typography primary="#ececec">Preencha uma nova tarefa</Typography>
+      <Typography align="center" primary="#ececec">Preencha uma nova tarefa</Typography>
       <StyledButton onClick={onClick}>X</StyledButton>
     </StyledContainer>
   )

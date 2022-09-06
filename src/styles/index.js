@@ -13,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
     body {
         min-height: 100vh;
         display:flex;
-        align-items:center;
+        
         justify-content:center;
         background: #1a1c1d;
        
@@ -28,6 +28,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 7px;
+  margin-top:10%;
   position:relative;
 
   @media screen and (max-width:564px) {

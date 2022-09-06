@@ -6,7 +6,7 @@ export const StyledModal = styled.div`
   background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
   
-  top: ${(props) => (props.open ? "24%" : "-150%")};
+  top: ${(props) => (props.open ? "27%" : "-150%")};
   transition: 0.6s ease;
   display: flex;
   flex-direction: column;
