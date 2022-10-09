@@ -17,7 +17,7 @@ function App() {
   const [savedId, setSavedId] = useState()
   const [search, setSearch] = useState("")
 
-  let taskSearch = tasks.filter((item) => item.task.startsWith(search))
+  let taskSearch = tasks.filter((item) => item.task.toLowerCase().includes(search.toLowerCase()))
 
   const newTask = () => {
     if (input === "") {
