@@ -5,7 +5,6 @@
 <a href="https://todo-list-2-0.vercel.app/" >Deploy do Projeto </a>
  <h2>💻Tecnologias</h2>
  <ul>
- <li>LocalStorage</li>
  <li> Reactjs</li>
  <li> Styled-Components</li>
  </ul>
